@@ -3,7 +3,7 @@ import sqlite3
 import xmltodict
 
 def consumir_api_1():
-    url = 'https://numera-case.web.app/v1/survey/1/answers'
+    url = 'https://raw.githubusercontent.com/gabriel-ezequiel/case-numera/refs/heads/main/datasets/dataset1.json'
     
     try:
         # Requisita dados da API
@@ -57,7 +57,7 @@ def consumir_api_1():
         print(f"Erro ao acessar a API: {e}")
 
 def consumir_api_2():
-    url = 'https://numera-case.web.app/v1/survey/2/answers'
+    url = 'https://raw.githubusercontent.com/gabriel-ezequiel/case-numera/refs/heads/main/datasets/dataset2.json'
     
     try:
         # Requisita dados da API
@@ -112,7 +112,7 @@ def consumir_api_2():
         print(f"Erro ao acessar a API: {e}")
 
 def consumir_api_3():
-    url = 'https://numera-case.web.app/v1/survey/3/answers'
+    url = 'https://raw.githubusercontent.com/gabriel-ezequiel/case-numera/refs/heads/main/datasets/dataset3.xml'
     
     try:
         # Requisita dados da API
